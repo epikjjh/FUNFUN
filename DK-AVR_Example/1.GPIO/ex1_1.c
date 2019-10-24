@@ -17,6 +17,12 @@
 
 #define DDR_LED		DDRD
 #define PORT_LED	PORTD
+/*
+<Register>
+    DDR: Choose data direction 
+    PORT: Process received data 
+    PIN: Process sending data
+*/
 
 int main(void)
 {
